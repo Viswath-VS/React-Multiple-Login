@@ -1,0 +1,44 @@
+{
+  "name": "client-side",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "webpack serve --mode development --env development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Viswath-VS/React-Multiple-Login.git"
+  },
+  "author": "Viswath VS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Viswath-VS/React-Multiple-Login/issues"
+  },
+  "homepage": "https://github.com/Viswath-VS/React-Multiple-Login#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^15.0.2",
+    "@types/react": "^17.0.5",
+    "@types/react-dom": "^17.0.3",
+    "@types/react-router-dom": "^5.1.7",
+    "css-loader": "^5.2.4",
+    "fork-ts-checker-webpack-plugin": "^6.2.6",
+    "html-webpack-plugin": "^5.3.1",
+    "sass": "^1.32.12",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0",
+    "ts-loader": "^9.1.2",
+    "ts-node": "^9.1.1",
+    "tsconfig-paths-webpack-plugin": "^3.5.1",
+    "typescript": "^4.2.4",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
